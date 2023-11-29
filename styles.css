@@ -518,5 +518,15 @@ footer a{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--lightgray);
+        padding: 10px;
+    }
+    footer p {
+        margin: 0;
+    }
+    
 }
 
